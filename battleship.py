@@ -10,7 +10,7 @@ def intro():
     print("\033[32m++++++++++++++++++++++++++++++++Dominika Barrett & Cezary Krol ++++++++++++++++++++++++++++++++++++++++\033[0m")
 
 
-intro()
+print(intro())
 
 size = 10
 
@@ -53,8 +53,8 @@ def coordinate(coord):
     # print(list_coord)
 
 
-#     print(coordinates)
-# print(coordinate(""))
+    # print(coordinates)
+print(coordinate(""))
 
 def print_board(board):
     letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
@@ -70,7 +70,7 @@ def print_board(board):
         counter += 1
 
 
-# print_board(board_computer)
+print_board(board_computer)
 
 
 def place_ship():
